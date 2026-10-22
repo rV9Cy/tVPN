@@ -47,28 +47,28 @@ TVPN یه کلاینت VPN خط فرمانیه که روی **Termux، لینوک
 **Termux**
 ```bash
 pkg install python git
-git clone https://github.com/YOUR_USERNAME/tvpn.git
+git clone https://github.com/rv9cy/tvpn.git
 cd tvpn
 python tvpn.py
 ```
 
 **لینوکس / مک**
 ```bash
-git clone https://github.com/YOUR_USERNAME/tvpn.git
+git clone https://github.com/rv9cy/tvpn.git
 cd tvpn
 python3 tvpn.py
 ```
 
 **ویندوز (PowerShell)**
 ```powershell
-git clone https://github.com/YOUR_USERNAME/tvpn.git
+git clone https://github.com/rv9cy/tvpn.git
 cd tvpn
 python tvpn.py
 ```
 
 **نصب به‌صورت دستور `tvpn`**
 ```bash
-pip install git+https://github.com/YOUR_USERNAME/tvpn.git
+pip install git+https://github.com/rv9cy/tvpn.git
 tvpn
 ```
 
