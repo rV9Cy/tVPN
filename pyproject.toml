@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tvpn"
+version = "1.0.0"
+description = "Terminal VPN: pick a country, connect, no VPN app needed"
+readme = "README_eng.md"
+license = {text = "MIT"}
+requires-python = ">=3.8"
+authors = [{name = "Arrow Dev"}]
+dependencies = []
+keywords = ["vpn", "terminal", "xray", "termux", "proxy"]
+
+[project.scripts]
+tvpn = "tvpn:main"
+
+[tool.setuptools]
+py-modules = ["tvpn", "tvpn_web"]
